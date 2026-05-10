@@ -1,0 +1,72 @@
+{
+  "Neutrogena Hydro Boost Water Gel": {
+    "product_name": "Neutrogena Hydro Boost Water Gel",
+    "avg_max_similarity": -7.6408,
+    "total_reviews_analyzed": 100
+  },
+  "Nespresso Vertuo Next Coffee Machine": {
+    "product_name": "Nespresso Vertuo Next Coffee Machine",
+    "avg_max_similarity": -8.8961,
+    "total_reviews_analyzed": 304
+  },
+  "OxiClean White Revive Laundry Whitener": {
+    "product_name": "OxiClean White Revive Laundry Whitener",
+    "avg_max_similarity": -3.8604,
+    "total_reviews_analyzed": 404
+  },
+  "Apple Watch Series 11": {
+    "product_name": "Apple Watch Series 11",
+    "avg_max_similarity": -8.3963,
+    "total_reviews_analyzed": 100
+  },
+  "Dyson V8 Cordless Vacuum": {
+    "product_name": "Dyson V8 Cordless Vacuum",
+    "avg_max_similarity": -5.0314,
+    "total_reviews_analyzed": 312
+  },
+  "Apple Airpods 4": {
+    "product_name": "Apple Airpods 4",
+    "avg_max_similarity": -6.0426,
+    "total_reviews_analyzed": 404
+  },
+  "Mini Mic Pro": {
+    "product_name": "Mini Mic Pro",
+    "avg_max_similarity": -5.0659,
+    "total_reviews_analyzed": 5
+  },
+  "Mighty Patch Original (Hero Cosmetics)": {
+    "product_name": "Mighty Patch Original (Hero Cosmetics)",
+    "avg_max_similarity": -5.6832,
+    "total_reviews_analyzed": 404
+  },
+  "COSRX Snail Mucin 96% Power Repairing Essence": {
+    "product_name": "COSRX Snail Mucin 96% Power Repairing Essence",
+    "avg_max_similarity": -8.4437,
+    "total_reviews_analyzed": 5
+  },
+  "Bedsure Satin Pillowcase Set": {
+    "product_name": "Bedsure Satin Pillowcase Set",
+    "avg_max_similarity": -4.7891,
+    "total_reviews_analyzed": 3
+  },
+  "Byoma Balancing Face Mist": {
+    "product_name": "Byoma Balancing Face Mist",
+    "avg_max_similarity": -4.5707,
+    "total_reviews_analyzed": 5
+  },
+  "Milk Makeup Cooling Water Jelly Tint": {
+    "product_name": "Milk Makeup Cooling Water Jelly Tint",
+    "avg_max_similarity": -8.0176,
+    "total_reviews_analyzed": 5
+  },
+  "Phillip Sonicare 4100 Series Electric Toothbrush": {
+    "product_name": "Phillip Sonicare 4100 Series Electric Toothbrush",
+    "avg_max_similarity": -4.7318,
+    "total_reviews_analyzed": 304
+  },
+  "Yankee Candle Lemon Lavender Scented Candle": {
+    "product_name": "Yankee Candle Lemon Lavender Scented Candle",
+    "avg_max_similarity": -4.7677,
+    "total_reviews_analyzed": 404
+  }
+}

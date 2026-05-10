@@ -1,0 +1,380 @@
+[
+  {
+    "id": "amazon-echo-dot-5th-gen",
+    "product_name": "Amazon Echo Dot (5th Gen)",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "cerave-moisturizing-cream",
+    "product_name": "CeraVe Moisturizing Cream",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "neutrogena-hydro-boost-water-gel",
+    "product_name": "Neutrogena Hydro Boost Water Gel",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "nespresso-vertuo-next-coffee-machine",
+    "product_name": "Nespresso Vertuo Next Coffee Machine",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "oxiclean-white-revive-laundry-whitener",
+    "product_name": "OxiClean White Revive Laundry Whitener",
+    "sentiment": {
+      "positive": 80,
+      "neutral": 7,
+      "negative": 13
+    }
+  },
+  {
+    "id": "aquaphor-healing-ointment",
+    "product_name": "Aquaphor Healing Ointment",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "theragun-mini-percussive-massager",
+    "product_name": "Theragun Mini Percussive Massager",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "apple-watch-series-11",
+    "product_name": "Apple Watch Series 11",
+    "sentiment": {
+      "positive": 33,
+      "neutral": 9,
+      "negative": 58
+    }
+  },
+  {
+    "id": "dyson-v8-cordless-vacuum",
+    "product_name": "Dyson V8 Cordless Vacuum",
+    "sentiment": {
+      "positive": 49,
+      "neutral": 13,
+      "negative": 39
+    }
+  },
+  {
+    "id": "fairlife-core-power-high-protein-26g-shake-chocolate-14-fl-oz",
+    "product_name": "Fairlife Core Power High Protein (26g) Shake, Chocolate, 14 fl oz",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "bella-2-slice-slim-toaster",
+    "product_name": "bella 2-Slice Slim Toaster",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "crocs",
+    "product_name": "Crocs",
+    "sentiment": {
+      "positive": 81,
+      "neutral": 3,
+      "negative": 16
+    }
+  },
+  {
+    "id": "eos-shea-better-body-lotion",
+    "product_name": "eos Shea Better Body Lotion",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "drift-car-air-freshener",
+    "product_name": "Drift Car Air Freshener",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "apple-airpods-4",
+    "product_name": "Apple Airpods 4",
+    "sentiment": {
+      "positive": 50,
+      "neutral": 7,
+      "negative": 42
+    }
+  },
+  {
+    "id": "mini-mic-pro",
+    "product_name": "Mini Mic Pro",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "hp-14-laptop",
+    "product_name": "HP 14 Laptop",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "frigidaire-ice-maker",
+    "product_name": "Frigidaire Ice Maker",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "celsius-peach-mango-green-tea",
+    "product_name": "Celsius Peach-Mango Green Tea",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "inaba-churu-cat-treats",
+    "product_name": "Inaba Churu Cat Treats",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "kindle",
+    "product_name": "Kindle",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "owala-water-bottle",
+    "product_name": "Owala Water Bottle",
+    "sentiment": {
+      "positive": 67,
+      "neutral": 7,
+      "negative": 26
+    }
+  },
+  {
+    "id": "stanley-quencher-h2-0-40oz-tumbler",
+    "product_name": "Stanley Quencher H2.0 40oz Tumbler",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "mighty-patch-original-hero-cosmetics",
+    "product_name": "Mighty Patch Original (Hero Cosmetics)",
+    "sentiment": {
+      "positive": 84,
+      "neutral": 6,
+      "negative": 10
+    }
+  },
+  {
+    "id": "instant-pot-duo-7-in-1",
+    "product_name": "Instant Pot Duo 7-in-1",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "bose-quietcomfort-45-headphones",
+    "product_name": "Bose QuietComfort 45 Headphones",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "cosrx-snail-mucin-96-power-repairing-essence",
+    "product_name": "COSRX Snail Mucin 96% Power Repairing Essence",
+    "sentiment": {
+      "positive": 100,
+      "neutral": 0,
+      "negative": 0
+    }
+  },
+  {
+    "id": "anker-735-usb-c-charger-ganprime-65w",
+    "product_name": "Anker 735 USB-C Charger (GaNPrime 65W)",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "fire-tv-stick-4k-max",
+    "product_name": "Fire TV Stick 4K Max",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "bedsure-satin-pillowcase-set",
+    "product_name": "Bedsure Satin Pillowcase Set",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "rx-bar-vanilla-almond-protein-bars",
+    "product_name": "RX Bar Vanilla Almond Protein Bars",
+    "sentiment": {
+      "positive": 79,
+      "neutral": 5,
+      "negative": 16
+    }
+  },
+  {
+    "id": "amara-organic-smoothie-melts-mighty-sweet-greens-baby-toddler-snacks",
+    "product_name": "Amara Organic Smoothie Melts, Mighty Sweet Greens, Baby & Toddler Snacks",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "essie-nail-polish-mademoisselle",
+    "product_name": "Essie Nail Polish, Mademoisselle",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "uni-posca-pc-5m-water-based-paint-markers-16-pack",
+    "product_name": "uni® POSCA® PC-5M, Water-Based Paint Markers (16 Pack)",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "liquid-iv-lemon-lime-hydration-multiplier-sugar-free",
+    "product_name": "Liquid IV Lemon lime hydration multiplier sugar free",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "byoma-balancing-face-mist",
+    "product_name": "Byoma Balancing Face Mist",
+    "sentiment": {
+      "positive": 60,
+      "neutral": 20,
+      "negative": 20
+    }
+  },
+  {
+    "id": "milk-makeup-cooling-water-jelly-tint",
+    "product_name": "Milk Makeup Cooling Water Jelly Tint",
+    "sentiment": {
+      "positive": 40,
+      "neutral": 40,
+      "negative": 20
+    }
+  },
+  {
+    "id": "phillip-sonicare-4100-series-electric-toothbrush",
+    "product_name": "Phillip Sonicare 4100 Series Electric Toothbrush",
+    "sentiment": {
+      "positive": 33,
+      "neutral": 8,
+      "negative": 59
+    }
+  },
+  {
+    "id": "optimum-nutrition-gold-standard-100-whey-protein-powder",
+    "product_name": "Optimum Nutrition Gold Standard 100% Whey Protein Powder",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "fitbit-inspire-3-activity-tracker",
+    "product_name": "Fitbit Inspire 3 Activity Tracker",
+    "sentiment": {
+      "positive": null,
+      "neutral": null,
+      "negative": null
+    }
+  },
+  {
+    "id": "yankee-candle-lemon-lavender-scented-candle",
+    "product_name": "Yankee Candle Lemon Lavender Scented Candle",
+    "sentiment": {
+      "positive": 86,
+      "neutral": 4,
+      "negative": 10
+    }
+  },
+  {
+    "id": "keurig-k-mini-single-serve-coffee-maker",
+    "product_name": "Keurig K-Mini Single Serve Coffee Maker",
+    "sentiment": {
+      "positive": 32,
+      "neutral": 4,
+      "negative": 64
+    }
+  }
+]

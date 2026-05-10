@@ -1,0 +1,205 @@
+[
+  {
+    "id": "airpods-4",
+    "product_name": "Apple Airpods 4",
+    "image": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=900&q=80",
+    "description": "Open-ear wireless earbuds marketed around comfort, clear calls, and seamless Apple ecosystem pairing.",
+    "trust_score": 87,
+    "sentiment": { "positive": 68, "neutral": 20, "negative": 12 },
+    "claim_vs_reality": [
+      { "feature": "Fit and comfort", "advertised": "All-day redesigned comfort", "actual": "Most users praise the lighter fit, though some still prefer silicone tips." },
+      { "feature": "Call quality", "advertised": "Clear voice isolation", "actual": "Call clarity is strong indoors, mixed in wind and traffic." },
+      { "feature": "Battery", "advertised": "Long listening time", "actual": "Generally meets expectations for casual daily use." }
+    ],
+    "summary": "Users generally like the comfort and pairing experience but complain about limited noise isolation in loud spaces.",
+    "reviews": ["Comfortable for long calls.", "Great with iPhone.", "Not enough seal for commuting."],
+    "keywords": [
+      { "text": "comfortable", "weight": 34 },
+      { "text": "pairing", "weight": 28 },
+      { "text": "calls", "weight": 25 },
+      { "text": "battery", "weight": 19 },
+      { "text": "noise", "weight": 16 },
+      { "text": "price", "weight": 12 }
+    ]
+  },
+  {
+    "id": "candle",
+    "product_name": "Yankee Candle Lemon Lavender Scented Candle",
+    "image": "https://m.media-amazon.com/images/I/71ABdIVlFzL._AC_SX679_.jpg",
+    "description": "Scented home candle promoted for long burn time and room-filling fragrance.",
+    "trust_score": 72,
+    "sentiment": { "positive": 52, "neutral": 24, "negative": 24 },
+    "claim_vs_reality": [
+      { "feature": "Scent throw", "advertised": "Room-filling fragrance", "actual": "Strong in small rooms, weaker than expected in open spaces." },
+      { "feature": "Burn time", "advertised": "Long lasting jar candle", "actual": "Mostly matches claims when wick is trimmed." }
+    ],
+    "summary": "Users generally like the fragrance variety but complain that some scents are too subtle after the first few burns.",
+    "reviews": ["Smells great at first.", "Lasts a long time.", "Scent could be stronger."],
+    "keywords": [
+      { "text": "scent", "weight": 36 },
+      { "text": "burn", "weight": 29 },
+      { "text": "cozy", "weight": 20 },
+      { "text": "subtle", "weight": 17 },
+      { "text": "jar", "weight": 12 }
+    ]
+  },
+  {
+    "id": "coffeemaker",
+    "product_name": "Keurig K-Mini Single Serve Coffee Maker",
+    "image": "https://i5.walmartimages.com/seo/Keurig-K-Mini-Single-Serve-Coffee-Maker-Black_24fa88b6-3d1c-413e-8c14-2f1fae6aaec9.bbd01846e3fddff4b83cc363a0817623.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+    "description": "Single-serve coffee maker advertised for fast brewing and simple maintenance.",
+    "trust_score": 78,
+    "sentiment": { "positive": 58, "neutral": 22, "negative": 20 },
+    "claim_vs_reality": [
+      { "feature": "Speed", "advertised": "Fresh coffee in minutes", "actual": "Fast and convenient for one cup." },
+      { "feature": "Maintenance", "advertised": "Easy cleaning", "actual": "Users like the removable reservoir but mention descaling reminders often." }
+    ],
+    "summary": "Users generally like the convenience but complain about pod cost and occasional clogging.",
+    "reviews": ["Quick morning coffee.", "Pods add up.", "Needs regular descaling."],
+    "keywords": [
+      { "text": "quick", "weight": 34 },
+      { "text": "pods", "weight": 27 },
+      { "text": "cleaning", "weight": 21 },
+      { "text": "compact", "weight": 18 },
+      { "text": "clog", "weight": 13 }
+    ]
+  },
+  {
+    "id": "crocs",
+    "product_name": "Crocs",
+    "image": "https://cdn.shopify.com/s/files/1/0187/0608/files/Enoki-White-Crocs-4_ff21f3a7-87b2-4df6-aad6-3b6ab674b0d2_900x900.progressive.jpg?v=1692899567",
+    "description": "Lightweight foam clogs marketed for casual comfort, durability, and water-friendly use.",
+    "trust_score": 91,
+    "sentiment": { "positive": 74, "neutral": 17, "negative": 9 },
+    "claim_vs_reality": [
+      { "feature": "Comfort", "advertised": "Iconic cushioned comfort", "actual": "Very consistent comfort praise across casual wear reviews." },
+      { "feature": "Sizing", "advertised": "Roomy fit", "actual": "Roomy as promised, but half-size shoppers often debate sizing down." }
+    ],
+    "summary": "Users generally like the comfort and durability but complain about inconsistent sizing between colors.",
+    "reviews": ["Wear them every day.", "Great for errands.", "Runs bigger than expected."],
+    "keywords": [
+      { "text": "comfort", "weight": 39 },
+      { "text": "lightweight", "weight": 31 },
+      { "text": "sizing", "weight": 22 },
+      { "text": "durable", "weight": 18 },
+      { "text": "easy", "weight": 13 }
+    ]
+  },
+  {
+    "id": "electric-toothbrush",
+    "product_name": "Phillip Sonicare 4100 Series Electric Toothbrush",
+    "image": "https://images.philips.com/is/image/philipsconsumer/6642975868d341989c06b06900fa6876?$pnglarge$&wid=960",
+    "description": "Rechargeable electric toothbrush positioned around deeper cleaning and brushing guidance.",
+    "trust_score": 84,
+    "sentiment": { "positive": 64, "neutral": 21, "negative": 15 },
+    "claim_vs_reality": [
+      { "feature": "Cleaning", "advertised": "Removes more plaque than manual brushing", "actual": "Users report a cleaner feel, especially after switching from manual brushes." },
+      { "feature": "Battery", "advertised": "Reliable rechargeable battery", "actual": "Usually strong, with a few complaints after long-term use." }
+    ],
+    "summary": "Users generally like the clean-mouth feel but complain about replacement head pricing.",
+    "reviews": ["Dentist noticed improvement.", "Battery is solid.", "Brush heads are expensive."],
+    "keywords": [
+      { "text": "clean", "weight": 37 },
+      { "text": "battery", "weight": 25 },
+      { "text": "heads", "weight": 22 },
+      { "text": "timer", "weight": 17 },
+      { "text": "value", "weight": 12 }
+    ]
+  },
+  {
+    "id": "owala",
+    "product_name": "Owala Water Bottle",
+    "image": "https://i.redd.it/46udwynp00eg1.jpeg",
+    "description": "Insulated water bottle marketed for leak resistance, cold retention, and dual sip or swig drinking.",
+    "trust_score": 89,
+    "sentiment": { "positive": 70, "neutral": 19, "negative": 11 },
+    "claim_vs_reality": [
+      { "feature": "Leak resistance", "advertised": "Leakproof lid", "actual": "Most users confirm strong leak resistance when the cap is fully locked." },
+      { "feature": "Cold retention", "advertised": "Keeps drinks cold for hours", "actual": "Regularly reported as accurate for school, work, and gym use." }
+    ],
+    "summary": "Users generally like the sip mechanism and insulation but complain about dents and limited cupholder fit.",
+    "reviews": ["Love the straw opening.", "Keeps ice all day.", "A bit wide for the car."],
+    "keywords": [
+      { "text": "cold", "weight": 35 },
+      { "text": "leakproof", "weight": 30 },
+      { "text": "straw", "weight": 24 },
+      { "text": "colors", "weight": 18 },
+      { "text": "dents", "weight": 11 }
+    ]
+  },
+  {
+    "id": "oxiclean",
+    "product_name": "OxiClean White Revive Laundry Whitener",
+    "image": "https://www.oxiclean.com/-/media/oxiclean/content/product-images/redesign/1-2-7_product_oxicleanwhiterevivelaundrywhitenerstainremoverpowder_front.png",
+    "description": "Laundry additive advertised for tough stain lifting and brighter whites.",
+    "trust_score": null,
+    "sentiment": { "positive": null, "neutral": null, "negative": null },
+    "claim_vs_reality": [],
+    "summary": null,
+    "reviews": [],
+    "keywords": []
+  },
+  {
+    "id": "pimple-patches",
+    "product_name": "Mighty Patch Original (Hero Cosmetics)",
+    "image": "https://www.herocosmetics.us/cdn/shop/files/PDP-Marketing-MPV-3_9ee8cf7b-89b7-41c8-9534-5fd9fa4c5722.jpg?crop=center&height=800&v=1681849278&width=800",
+    "description": "Hydrocolloid acne patches advertised to flatten blemishes overnight.",
+    "trust_score": 80,
+    "sentiment": { "positive": 60, "neutral": 25, "negative": 15 },
+    "claim_vs_reality": [
+      { "feature": "Overnight effect", "advertised": "Visibly flattens pimples", "actual": "Works best on whiteheads, less effective for deep cystic acne." },
+      { "feature": "Adhesion", "advertised": "Stays on through the night", "actual": "Generally stays on, though oily skin can reduce hold." }
+    ],
+    "summary": "Users generally like the visible gunk removal but complain that results vary by blemish type.",
+    "reviews": ["Best on surface pimples.", "Stayed on overnight.", "Does not fix deep acne."],
+    "keywords": [
+      { "text": "overnight", "weight": 33 },
+      { "text": "whiteheads", "weight": 28 },
+      { "text": "adhesive", "weight": 21 },
+      { "text": "skin", "weight": 17 },
+      { "text": "price", "weight": 12 }
+    ]
+  },
+  {
+    "id": "protein-bar",
+    "product_name": "RX Bar Vanilla Almond Protein Bars",
+    "image": "https://nycorganiconline.com/cdn/shop/files/27317aef-9846-49eb-804d-8f8e11499da8.png?v=1709635494",
+    "description": "High-protein snack bar promoted for low sugar, high fiber, and dessert-like flavors.",
+    "trust_score": 69,
+    "sentiment": { "positive": 49, "neutral": 27, "negative": 24 },
+    "claim_vs_reality": [
+      { "feature": "Taste", "advertised": "Dessert-like flavor", "actual": "Flavor is polarizing; fans like it, critics mention aftertaste." },
+      { "feature": "Nutrition", "advertised": "High protein, low sugar", "actual": "Nutrition claims are usually accepted by users." }
+    ],
+    "summary": "Users generally like the macros but complain about texture and sweetness depending on flavor.",
+    "reviews": ["Good macros.", "Texture is chewy.", "Too sweet for me."],
+    "keywords": [
+      { "text": "protein", "weight": 35 },
+      { "text": "texture", "weight": 28 },
+      { "text": "sweet", "weight": 24 },
+      { "text": "macros", "weight": 18 },
+      { "text": "flavor", "weight": 15 }
+    ]
+  },
+  {
+    "id": "vacuum",
+    "product_name": "Dyson V8 Cordless Vacuum",
+    "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/us/floorcare/npd-2023/v8/_V8-Motorbar-Tech_Banner_FC-Range-Reset-2023_V8-Core.jpg?$responsive$&cropPathE=mobile&fit=stretch,1&fmt=pjpeg&wid=640",
+    "description": "Upright vacuum advertised for strong suction, pet hair pickup, and lift-away cleaning.",
+    "trust_score": 83,
+    "sentiment": { "positive": 62, "neutral": 23, "negative": 15 },
+    "claim_vs_reality": [
+      { "feature": "Suction", "advertised": "Powerful carpet and hard-floor suction", "actual": "Strong pickup is the most consistent positive theme." },
+      { "feature": "Pet hair", "advertised": "Designed for pet homes", "actual": "Performs well, but brush roll maintenance matters." }
+    ],
+    "summary": "Users generally like the suction and pet hair pickup but complain about weight and storage bulk.",
+    "reviews": ["Great on dog hair.", "Strong suction.", "A little heavy upstairs."],
+    "keywords": [
+      { "text": "suction", "weight": 38 },
+      { "text": "pet hair", "weight": 31 },
+      { "text": "heavy", "weight": 22 },
+      { "text": "filters", "weight": 16 },
+      { "text": "carpet", "weight": 14 }
+    ]
+  }
+]
