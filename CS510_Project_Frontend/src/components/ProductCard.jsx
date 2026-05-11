@@ -25,7 +25,7 @@ export default function ProductCard({ product }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
         <span className={`absolute left-4 top-4 rounded-full border px-3 py-1 text-xs font-bold ${badgeClass(score)}`}>
-          {score == null ? "Coming Soon" : `${score}% Trust`}
+          {score == null ? "No score" : `${score}% Trust`}
         </span>
       </div>
       <div className="p-5">

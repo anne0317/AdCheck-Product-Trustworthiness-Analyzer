@@ -28,27 +28,29 @@ export default function SentimentChart({ sentiment }) {
   }
 
   return (
-    <div className="h-[280px] w-full">
-      <ResponsiveContainer>
-        <PieChart>
-          <Pie data={values} dataKey="value" nameKey="name" innerRadius={64} outerRadius={100} paddingAngle={5}>
-            {values.map((entry) => (
-              <Cell key={entry.name} fill={COLORS[entry.name]} />
-            ))}
-          </Pie>
-          <Tooltip
-            contentStyle={{
-              background: "#0b0b0b",
-              border: "1px solid rgba(255,255,255,0.12)",
-              borderRadius: "12px",
-              color: "#fff",
-            }}
-          />
-        </PieChart>
-      </ResponsiveContainer>
-      <div className="mt-2 grid grid-cols-3 gap-2 text-center text-xs font-bold text-zinc-300">
+    <div className="w-full">
+      <div className="h-[310px]">
+        <ResponsiveContainer width="100%" height="100%">
+          <PieChart>
+            <Pie data={values} dataKey="value" nameKey="name" innerRadius={78} outerRadius={128} paddingAngle={5}>
+              {values.map((entry) => (
+                <Cell key={entry.name} fill={COLORS[entry.name]} />
+              ))}
+            </Pie>
+            <Tooltip
+              contentStyle={{
+                background: "#0b0b0b",
+                border: "1px solid rgba(255,255,255,0.12)",
+                borderRadius: "8px",
+                color: "#fff",
+              }}
+            />
+          </PieChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="mt-4 grid grid-cols-1 gap-2 text-center text-xs font-bold text-zinc-300 sm:grid-cols-3">
         {values.map((entry) => (
-          <div key={entry.name} className="rounded-xl bg-white/[0.06] px-2 py-3">
+          <div key={entry.name} className="rounded-lg border border-white/10 bg-white/[0.06] px-2 py-3">
             <span className="mx-auto mb-2 block h-2 w-8 rounded-full" style={{ backgroundColor: COLORS[entry.name] }} />
             {entry.name} {entry.value}%
           </div>

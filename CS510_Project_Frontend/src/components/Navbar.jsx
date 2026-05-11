@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { BadgeCheck, Code2, Search } from "lucide-react";
+import { BadgeCheck, Search } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -31,15 +31,6 @@ export default function Navbar() {
           >
             Dashboard
           </NavLink>
-          <a
-            href="https://vitejs.dev/"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden h-10 w-10 items-center justify-center rounded-full border border-white/10 text-zinc-300 transition hover:border-white/40 hover:text-white sm:flex"
-            aria-label="Vite documentation"
-          >
-            <Code2 size={18} />
-          </a>
         </div>
       </nav>
     </header>

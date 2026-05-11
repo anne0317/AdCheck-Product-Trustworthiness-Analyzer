@@ -24,11 +24,11 @@ export default function ClaimComparison({ rows }) {
             </div>
             <div>
               <p className="metric-label mb-1 md:hidden">Advertised</p>
-              <p className="text-zinc-300">{row.advertised || "Data coming soon"}</p>
+              <p className="text-zinc-300">{row.advertised || "No advertised claim text in output"}</p>
             </div>
             <div>
               <p className="metric-label mb-1 md:hidden">Actual User Experience</p>
-              <p className="text-zinc-300">{row.actual || "Data coming soon"}</p>
+              <p className="text-zinc-300">{row.actual || "No review comparison text in output"}</p>
             </div>
           </div>
         ))}

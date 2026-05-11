@@ -1,7 +1,7 @@
 import { ShieldAlert, ShieldCheck, ShieldQuestion } from "lucide-react";
 
 export function getTrustStatus(score) {
-  if (score == null) return { label: "Analysis Pending", tone: "neutral" };
+  if (score == null) return { label: "No Score", tone: "neutral" };
   if (score >= 85) return { label: "Exceeds Expectations", tone: "good" };
   if (score >= 70) return { label: "Meets Expectations", tone: "warn" };
   return { label: "Disappoints", tone: "bad" };
@@ -61,7 +61,7 @@ export default function TrustScore({ score, size = "large" }) {
         </span>
         {!isCompact && (
           <p className="mt-4 max-w-sm text-sm leading-6 text-zinc-400">
-            This placeholder score can be replaced by your regression model once backend scoring is ready.
+            Final score produced by the regression output after sentiment analysis and platform trend aggregation.
           </p>
         )}
       </div>
