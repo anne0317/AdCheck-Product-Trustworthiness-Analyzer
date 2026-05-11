@@ -277,10 +277,21 @@ const combineData = () =>
       sentiment_counts: counts,
       claim_vs_reality: claimsByProduct[productName] ?? [],
       summary: summarizeReviews(productName, percentages, ratedTotal, sentimentPlatforms),
-      reviews: reviews.slice(0, 12).map((review) => ({
-        ...review,
-        display_source: formatSourceName(review.source),
-      })),
+      reviews: (() => {
+        const sources = [...new Set(reviews.map((r) => r.source))];
+        const picked = sources.flatMap((src) => {
+          const srcReviews = reviews.filter((r) => r.source === src);
+          const sentiments = ["negative", "neutral", "positive"];
+          return sentiments
+            .map((s) => srcReviews.find((r) => r.sentiment === s))
+            .filter(Boolean)
+            .slice(0, 2);
+        });
+        return picked.map((review) => ({
+          ...review,
+          display_source: formatSourceName(review.source),
+        }));
+      })(),
       review_count: reviews.length || knowledgeBase[productName]?.total_reviews || 0,
       keywords: extractKeywords(reviews),
       platform_summary: sentimentPlatforms,

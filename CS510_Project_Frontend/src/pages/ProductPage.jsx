@@ -148,17 +148,70 @@ export default function ProductPage() {
           </div>
         )}
 
-        {!!product.reviews?.length && (
+        {!!product.platform_summary?.length && (() => {
+        // Determine preferred sentiment based on trust score
+        const preferredSentiment = product.trust_score >= 70 ? "positive" : product.trust_score >= 45 ? "neutral" : "negative";
+        const fallbackOrder = ["negative", "neutral", "positive"];
+
+        // Source key mapping: normalize source names from JSON to platform_summary labels
+        const sourceKeyMap = {
+          amazon: ["amazon_txt", "amazon"],
+          target: ["target_txt", "target"],
+          walmart: ["walmart_txt", "walmart"],
+        };
+
+        const pickReview = (platformSource) => {
+          const normalizedLabel = platformSource.toLowerCase();
+          const matchKeys = Object.entries(sourceKeyMap).find(([key]) =>
+            normalizedLabel.includes(key)
+          )?.[1] ?? [normalizedLabel];
+
+          const platformReviews = (product.reviews ?? []).filter((r) =>
+            matchKeys.includes(r.source?.toLowerCase())
+          );
+
+          // Try preferred sentiment first, then fallbacks
+          const sentimentPriority =
+            preferredSentiment === "negative"
+              ? ["negative", "neutral", "positive"]
+              : preferredSentiment === "neutral"
+              ? ["neutral", "negative", "positive"]
+              : ["positive", "neutral", "negative"];
+
+          for (const s of sentimentPriority) {
+            const match = platformReviews.find((r) => r.sentiment === s);
+            if (match) return match;
+          }
+          return null;
+        };
+
+        const platformsToShow = product.platform_summary.slice(0, 3);
+
+        return (
           <div className="mt-6 grid gap-3 lg:grid-cols-3">
-            {product.reviews.slice(0, 3).map((review, index) => (
-              <blockquote key={`${review.source}-${index}`} className="rounded-lg border border-white/10 bg-black p-4">
-                <p className="text-xs font-bold uppercase tracking-[0.16em] text-zinc-500">{review.sentiment}</p>
-                <p className="mt-2 line-clamp-4 text-sm leading-6 text-zinc-300">{review.body || review.title}</p>
-                <p className="mt-3 text-xs font-bold text-zinc-500">{review.display_source}</p>
-              </blockquote>
-            ))}
+            {platformsToShow.map((platform) => {
+              const review = pickReview(platform.source);
+              return (
+                <blockquote key={platform.source} className="rounded-lg border border-white/10 bg-black p-4">
+                  {review ? (
+                    <>
+                      <p className="text-xs font-bold uppercase tracking-[0.16em] text-zinc-500">{review.sentiment}</p>
+                      <p className="mt-2 line-clamp-4 text-sm leading-6 text-zinc-300">{review.body || review.title}</p>
+                      <p className="mt-3 text-xs font-bold text-zinc-500">{platform.source}</p>
+                    </>
+                  ) : (
+                    <>
+                      <p className="text-xs font-bold uppercase tracking-[0.16em] text-zinc-500">No reviews</p>
+                      <p className="mt-2 text-sm leading-6 text-zinc-400">No review available for this platform.</p>
+                      <p className="mt-3 text-xs font-bold text-zinc-500">{platform.source}</p>
+                    </>
+                  )}
+                </blockquote>
+              );
+            })}
           </div>
-        )}
+        );
+      })()}
       </article>
     </section>
   );
