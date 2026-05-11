@@ -281,8 +281,21 @@ const combineData = () =>
         const sources = [...new Set(reviews.map((r) => r.source))];
         const picked = sources.flatMap((src) => {
           const srcReviews = reviews.filter((r) => r.source === src);
-          const sentiments = ["negative", "neutral", "positive"];
-          return sentiments
+          const total = srcReviews.length;
+          const positivePct = total ? (srcReviews.filter((r) => r.sentiment === "positive").length / total) * 100 : 0;
+
+          // Mirror the same threshold used in ProductPage so sampled sentiments always match
+          const preferred =
+            positivePct >= 65 ? "positive"
+            : positivePct >= 45 ? "neutral"
+            : "negative";
+
+          const sentimentPriority =
+            preferred === "positive" ? ["positive", "neutral", "negative"]
+            : preferred === "neutral" ? ["neutral", "positive", "negative"]
+            : ["negative", "neutral", "positive"];
+
+          return sentimentPriority
             .map((s) => srcReviews.find((r) => r.sentiment === s))
             .filter(Boolean)
             .slice(0, 2);
