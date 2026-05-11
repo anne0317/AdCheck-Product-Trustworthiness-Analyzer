@@ -1,0 +1,493 @@
+[
+  {
+    "product_id": "yankee-candle-lemon-lavender-scented-candle",
+    "product_name": "Yankee Candle Lemon Lavender Scented Candle",
+    "model": "ElasticNet",
+    "trust_score": 91,
+    "confidence": 0.93,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.79,
+        "positive_pct": 93,
+        "neutral_pct": 5,
+        "negative_pct": 2,
+        "predicted_trust": 96
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 4.48,
+        "positive_pct": 86,
+        "neutral_pct": 3,
+        "negative_pct": 9,
+        "predicted_trust": 88
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 4.77,
+        "positive_pct": 93,
+        "neutral_pct": 5,
+        "negative_pct": 2,
+        "predicted_trust": 96
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "mighty-patch-original-hero-cosmetics",
+    "product_name": "Mighty Patch Original (Hero Cosmetics)",
+    "model": "ElasticNet",
+    "trust_score": 89,
+    "confidence": 0.9,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.88,
+        "positive_pct": 99,
+        "neutral_pct": 1,
+        "negative_pct": 0,
+        "predicted_trust": 100
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 4.46,
+        "positive_pct": 85,
+        "neutral_pct": 5,
+        "negative_pct": 8,
+        "predicted_trust": 88
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 4.12,
+        "positive_pct": 78,
+        "neutral_pct": 5,
+        "negative_pct": 17,
+        "predicted_trust": 80
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "oxiclean-white-revive-laundry-whitener",
+    "product_name": "OxiClean White Revive Laundry Whitener",
+    "model": "ElasticNet",
+    "trust_score": 86,
+    "confidence": 0.9,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.86,
+        "positive_pct": 99,
+        "neutral_pct": 1,
+        "negative_pct": 0,
+        "predicted_trust": 100
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 4.05,
+        "positive_pct": 75,
+        "neutral_pct": 8,
+        "negative_pct": 15,
+        "predicted_trust": 80
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 4.69,
+        "positive_pct": 91,
+        "neutral_pct": 2,
+        "negative_pct": 7,
+        "predicted_trust": 92
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "rx-bar-vanilla-almond-protein-bars",
+    "product_name": "RX Bar Vanilla Almond Protein Bars",
+    "model": "ElasticNet",
+    "trust_score": 86,
+    "confidence": 0.93,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.42,
+        "positive_pct": 84,
+        "neutral_pct": 7,
+        "negative_pct": 9,
+        "predicted_trust": 88
+      },
+      {
+        "source": "target_txt",
+        "review_count": 140,
+        "avg_rating": 4.38,
+        "positive_pct": 83,
+        "neutral_pct": 4,
+        "negative_pct": 12,
+        "predicted_trust": 86
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 4.37,
+        "positive_pct": 82,
+        "neutral_pct": 5,
+        "negative_pct": 13,
+        "predicted_trust": 84
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "crocs",
+    "product_name": "Crocs",
+    "model": "ElasticNet",
+    "trust_score": 84,
+    "confidence": 0.87,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 99,
+        "avg_rating": 4.94,
+        "positive_pct": 100,
+        "neutral_pct": 0,
+        "negative_pct": 0,
+        "predicted_trust": 100
+      },
+      {
+        "source": "target_txt",
+        "review_count": 302,
+        "avg_rating": 4.24,
+        "positive_pct": 80,
+        "neutral_pct": 3,
+        "negative_pct": 15,
+        "predicted_trust": 83
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 3.88,
+        "positive_pct": 73,
+        "neutral_pct": 0,
+        "negative_pct": 27,
+        "predicted_trust": 73
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "owala-water-bottle",
+    "product_name": "Owala Water Bottle",
+    "model": "ElasticNet",
+    "trust_score": 76,
+    "confidence": 0.84,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.91,
+        "positive_pct": 100,
+        "neutral_pct": 0,
+        "negative_pct": 0,
+        "predicted_trust": 100
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 3.53,
+        "positive_pct": 60,
+        "neutral_pct": 6,
+        "negative_pct": 32,
+        "predicted_trust": 64
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 4.49,
+        "positive_pct": 86,
+        "neutral_pct": 4,
+        "negative_pct": 10,
+        "predicted_trust": 88
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "apple-airpods-4",
+    "product_name": "Apple Airpods 4",
+    "model": "ElasticNet",
+    "trust_score": 60,
+    "confidence": 0.79,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.58,
+        "positive_pct": 97,
+        "neutral_pct": 2,
+        "negative_pct": 1,
+        "predicted_trust": 98
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 3.03,
+        "positive_pct": 45,
+        "neutral_pct": 8,
+        "negative_pct": 46,
+        "predicted_trust": 49
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 3.16,
+        "positive_pct": 54,
+        "neutral_pct": 4,
+        "negative_pct": 42,
+        "predicted_trust": 56
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "dyson-v8-cordless-vacuum",
+    "product_name": "Dyson V8 Cordless Vacuum",
+    "model": "ElasticNet",
+    "trust_score": 60,
+    "confidence": 0.87,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 3.96,
+        "positive_pct": 72,
+        "neutral_pct": 15,
+        "negative_pct": 13,
+        "predicted_trust": 80
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 3.01,
+        "positive_pct": 45,
+        "neutral_pct": 13,
+        "negative_pct": 41,
+        "predicted_trust": 52
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 3.6,
+        "positive_pct": 60,
+        "neutral_pct": 11,
+        "negative_pct": 29,
+        "predicted_trust": 66
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "phillip-sonicare-4100-series-electric-toothbrush",
+    "product_name": "Phillip Sonicare 4100 Series Electric Toothbrush",
+    "model": "ElasticNet",
+    "trust_score": 49,
+    "confidence": 0.74,
+    "platform_trends": [
+      {
+        "source": "amazon_txt",
+        "review_count": 100,
+        "avg_rating": 4.53,
+        "positive_pct": 92,
+        "neutral_pct": 8,
+        "negative_pct": 0,
+        "predicted_trust": 96
+      },
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 2.55,
+        "positive_pct": 32,
+        "neutral_pct": 9,
+        "negative_pct": 58,
+        "predicted_trust": 37
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 2.47,
+        "positive_pct": 36,
+        "neutral_pct": 3,
+        "negative_pct": 61,
+        "predicted_trust": 38
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  },
+  {
+    "product_id": "keurig-k-mini-single-serve-coffee-maker",
+    "product_name": "Keurig K-Mini Single Serve Coffee Maker",
+    "model": "ElasticNet",
+    "trust_score": 37,
+    "confidence": 0.78,
+    "platform_trends": [
+      {
+        "source": "target_txt",
+        "review_count": 304,
+        "avg_rating": 2.14,
+        "positive_pct": 24,
+        "neutral_pct": 5,
+        "negative_pct": 70,
+        "predicted_trust": 27
+      },
+      {
+        "source": "walmart_txt",
+        "review_count": 100,
+        "avg_rating": 3.81,
+        "positive_pct": 69,
+        "neutral_pct": 1,
+        "negative_pct": 30,
+        "predicted_trust": 70
+      }
+    ],
+    "feature_importance": [
+      {
+        "feature": "positive_pct",
+        "weight": 20.5179
+      },
+      {
+        "feature": "neutral_pct",
+        "weight": 1.7275
+      },
+      {
+        "feature": "negative_pct",
+        "weight": -0.8766
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "apple-airpods-4",
+    "product_name": "Apple Airpods 4",
+    "sentiment": {
+      "positive": 57,
+      "neutral": 6,
+      "negative": 37
+    }
+  },
+  {
+    "id": "crocs",
+    "product_name": "Crocs",
+    "sentiment": {
+      "positive": 83,
+      "neutral": 2,
+      "negative": 15
+    }
+  },
+  {
+    "id": "dyson-v8-cordless-vacuum",
+    "product_name": "Dyson V8 Cordless Vacuum",
+    "sentiment": {
+      "positive": 53,
+      "neutral": 13,
+      "negative": 34
+    }
+  },
+  {
+    "id": "keurig-k-mini-single-serve-coffee-maker",
+    "product_name": "Keurig K-Mini Single Serve Coffee Maker",
+    "sentiment": {
+      "positive": 35,
+      "neutral": 4,
+      "negative": 61
+    }
+  },
+  {
+    "id": "mighty-patch-original-hero-cosmetics",
+    "product_name": "Mighty Patch Original (Hero Cosmetics)",
+    "sentiment": {
+      "positive": 87,
+      "neutral": 5,
+      "negative": 9
+    }
+  },
+  {
+    "id": "owala-water-bottle",
+    "product_name": "Owala Water Bottle",
+    "sentiment": {
+      "positive": 73,
+      "neutral": 5,
+      "negative": 22
+    }
+  },
+  {
+    "id": "oxiclean-white-revive-laundry-whitener",
+    "product_name": "OxiClean White Revive Laundry Whitener",
+    "sentiment": {
+      "positive": 83,
+      "neutral": 6,
+      "negative": 11
+    }
+  },
+  {
+    "id": "phillip-sonicare-4100-series-electric-toothbrush",
+    "product_name": "Phillip Sonicare 4100 Series Electric Toothbrush",
+    "sentiment": {
+      "positive": 45,
+      "neutral": 8,
+      "negative": 47
+    }
+  },
+  {
+    "id": "rx-bar-vanilla-almond-protein-bars",
+    "product_name": "RX Bar Vanilla Almond Protein Bars",
+    "sentiment": {
+      "positive": 83,
+      "neutral": 5,
+      "negative": 11
+    }
+  },
+  {
+    "id": "yankee-candle-lemon-lavender-scented-candle",
+    "product_name": "Yankee Candle Lemon Lavender Scented Candle",
+    "sentiment": {
+      "positive": 89,
+      "neutral": 4,
+      "negative": 7
+    }
+  }
+]

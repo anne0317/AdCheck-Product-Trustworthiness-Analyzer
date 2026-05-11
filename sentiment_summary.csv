@@ -1,43 +1,11 @@
 product_name,total_reviews,rated_reviews,unrated_reviews,positive_count,neutral_count,negative_count,pct_positive,pct_neutral,pct_negative,dominant_sentiment
-"Amara Organic Smoothie Melts, Mighty Sweet Greens, Baby & Toddler Snacks",0,0,0,0,0,0,,,,n/a
-Amazon Echo Dot (5th Gen),0,0,0,0,0,0,,,,n/a
-Anker 735 USB-C Charger (GaNPrime 65W),0,0,0,0,0,0,,,,n/a
-Apple Airpods 4,504,504,0,254,37,213,50.4,7.3,42.3,positive
-Apple Watch Series 11,100,100,0,33,9,58,33.0,9.0,58.0,negative
-Aquaphor Healing Ointment,0,0,0,0,0,0,,,,n/a
-Bedsure Satin Pillowcase Set,3,0,3,0,0,0,,,,n/a
-Bose QuietComfort 45 Headphones,0,0,0,0,0,0,,,,n/a
-Byoma Balancing Face Mist,5,5,0,3,1,1,60.0,20.0,20.0,positive
-COSRX Snail Mucin 96% Power Repairing Essence,5,5,0,5,0,0,100.0,0.0,0.0,positive
-Celsius Peach-Mango Green Tea,0,0,0,0,0,0,,,,n/a
-CeraVe Moisturizing Cream,0,0,0,0,0,0,,,,n/a
-Crocs,503,502,1,406,16,80,80.9,3.2,15.9,positive
-Drift Car Air Freshener,0,0,0,0,0,0,,,,n/a
-Dyson V8 Cordless Vacuum,404,404,0,197,51,156,48.8,12.6,38.6,positive
-"Essie Nail Polish, Mademoisselle",0,0,0,0,0,0,,,,n/a
-"Fairlife Core Power High Protein (26g) Shake, Chocolate, 14 fl oz",0,0,0,0,0,0,,,,n/a
-Fire TV Stick 4K Max,0,0,0,0,0,0,,,,n/a
-Fitbit Inspire 3 Activity Tracker,0,0,0,0,0,0,,,,n/a
-Frigidaire Ice Maker,0,0,0,0,0,0,,,,n/a
-HP 14 Laptop,0,0,0,0,0,0,,,,n/a
-Inaba Churu Cat Treats,0,0,0,0,0,0,,,,n/a
-Instant Pot Duo 7-in-1,0,0,0,0,0,0,,,,n/a
-Keurig K-Mini Single Serve Coffee Maker,504,504,0,160,19,325,31.7,3.8,64.5,negative
-Kindle,0,0,0,0,0,0,,,,n/a
-Liquid IV Lemon lime hydration multiplier sugar free,0,0,0,0,0,0,,,,n/a
-Mighty Patch Original (Hero Cosmetics),504,504,0,422,30,52,83.7,6.0,10.3,positive
-Milk Makeup Cooling Water Jelly Tint,5,5,0,2,2,1,40.0,40.0,20.0,positive
-Mini Mic Pro,5,0,5,0,0,0,,,,n/a
-Nespresso Vertuo Next Coffee Machine,0,0,0,0,0,0,,,,n/a
-Neutrogena Hydro Boost Water Gel,0,0,0,0,0,0,,,,n/a
-Optimum Nutrition Gold Standard 100% Whey Protein Powder,0,0,0,0,0,0,,,,n/a
-Owala Water Bottle,504,504,0,338,35,131,67.1,6.9,26.0,positive
-OxiClean White Revive Laundry Whitener,504,504,0,402,34,68,79.8,6.7,13.5,positive
-Phillip Sonicare 4100 Series Electric Toothbrush,404,404,0,134,32,238,33.2,7.9,58.9,negative
-RX Bar Vanilla Almond Protein Bars,345,344,1,271,17,56,78.8,4.9,16.3,positive
-Stanley Quencher H2.0 40oz Tumbler,0,0,0,0,0,0,,,,n/a
-Theragun Mini Percussive Massager,0,0,0,0,0,0,,,,n/a
-Yankee Candle Lemon Lavender Scented Candle,504,504,0,435,21,48,86.3,4.2,9.5,positive
-bella 2-Slice Slim Toaster,0,0,0,0,0,0,,,,n/a
-eos Shea Better Body Lotion,0,0,0,0,0,0,,,,n/a
-"uni® POSCA® PC-5M, Water-Based Paint Markers (16 Pack)",0,0,0,0,0,0,,,,n/a
+Apple Airpods 4,504,504,0,288,32,184,57.1,6.3,36.5,positive
+Crocs,502,501,1,416,12,73,83.0,2.4,14.6,positive
+Dyson V8 Cordless Vacuum,504,504,0,269,66,169,53.4,13.1,33.5,positive
+Keurig K-Mini Single Serve Coffee Maker,404,404,0,142,17,245,35.1,4.2,60.6,negative
+Mighty Patch Original (Hero Cosmetics),504,504,0,437,24,43,86.7,4.8,8.5,positive
+Owala Water Bottle,504,504,0,370,24,110,73.4,4.8,21.8,positive
+OxiClean White Revive Laundry Whitener,504,504,0,419,30,55,83.1,6.0,10.9,positive
+Phillip Sonicare 4100 Series Electric Toothbrush,504,504,0,226,40,238,44.8,7.9,47.2,negative
+RX Bar Vanilla Almond Protein Bars,341,340,1,283,18,39,83.2,5.3,11.5,positive
+Yankee Candle Lemon Lavender Scented Candle,504,504,0,449,21,34,89.1,4.2,6.7,positive
